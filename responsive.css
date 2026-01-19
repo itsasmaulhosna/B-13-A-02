@@ -20,8 +20,21 @@
   .banner-title {
     font-size: 2.4rem;
   }
-  section {
-    margin-top: 10px;
+
+  /* section {
+    margin-top: -50px;
+  } */
+  /* .about {
+    margin: 100px 0;
+  } */
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 30px;
+  }
+  .banner {
+    margin-top: -50px;
+    margin-bottom: 200px;
   }
 }
 
@@ -37,5 +50,14 @@
   }
   .banner-img img {
     left: 41%;
+  }
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* padding: 20px 30px; */
+  }
+  .banner {
+    margin-top: -50px;
+    margin-bottom: 200px;
   }
 }
