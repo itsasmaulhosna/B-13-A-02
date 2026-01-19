@@ -35,7 +35,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 16px 150px;
-  background: linear-gradient(#1a0b2e, rgba(26, 17, 46, 9));
+  background: linear-gradient(#1a0b2e, rgba(26, 17, 46, 12));
 }
 .btn {
   display: inline-flex;
@@ -62,7 +62,7 @@ nav {
 }
 /* banner */
 .title {
-  font-size: 3.2rem;
+  font-size: 2.5rem;
   font-weight: 800rem;
   margin-bottom: 20px;
   color: white;
@@ -223,4 +223,48 @@ nav {
   border-radius: 30px;
   background: rgba(53, 17, 101, 0.4);
   width: 370px;
+}
+/* feature */
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: white;
+  padding-left: 20px;
+}
+.feature-text {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: white;
+  padding-left: 20px;
+}
+.time {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.time h5 {
+  color: green;
+  font-size: 1rem;
+}
+.feature-content {
+  background: rgba(53, 17, 101, 0.4);
+  padding-right: 30px;
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+}
+.feature-container {
+  padding: 10px 50px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.video {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
