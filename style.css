@@ -117,7 +117,7 @@ nav {
   max-width: 1600px;
   background-size: cover;
   height: 100vh;
-  background-position: center;
+  /* background-position: center; */
   background-size: contain;
 }
 
@@ -225,6 +225,9 @@ nav {
   width: 370px;
 }
 /* feature */
+.feature-section {
+  background: rgba(26, 11, 46, 1);
+}
 .feature-title {
   font-size: 1.5rem;
   font-weight: 700;
@@ -267,4 +270,67 @@ nav {
 .video {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+}
+/* host */
+.host-section {
+  background: rgba(26, 11, 46, 1);
+  padding: 0 50px;
+}
+.size {
+  height: 17px;
+  width: 17px;
+}
+.size2 {
+  height: 20px;
+  width: 20px;
+}
+.link-img {
+  gap: 20px;
+  display: flex;
+}
+.host-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  background: rgba(53, 17, 101, 0.4);
+  border-radius: 34px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.name {
+  font-size: 2.5rem;
+  font-weight: 800rem;
+  margin-bottom: 20px;
+  color: white;
+}
+.host-info {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+  color: white;
+}
+/* footer */
+.footer-link h5 {
+  color: white;
+  font-size: 1rem;
+}
+.footer-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 20px;
+  gap: 7px;
+}
+.footer-container {
+  text-align: center;
+  padding-top: 110px;
+}
+.footer-section {
+  background: url('./assets/footer-bg.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 1600px;
+  background-size: cover;
+  height: 100vh;
+  background-size: contain;
 }

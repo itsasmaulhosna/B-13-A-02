@@ -69,6 +69,18 @@
   .layout-1 {
     grid-row: span 1;
   }
+  .host-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .link-img {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-container {
+    text-align: center;
+    padding-top: 50px;
+  }
 }
 
 /* medium */
@@ -92,5 +104,28 @@
   .banner {
     margin-top: -50px;
     margin-bottom: 200px;
+  }
+  .layout-2,
+  .layout-3,
+  .layout-4 {
+    grid-column: span 1;
+  }
+  .layout-1 {
+    grid-row: span 1;
+  }
+  .layout-1,
+  .layout-2,
+  .layout-3,
+  .layout-4,
+  .layout-5 {
+    width: 400px;
+    padding: 25px;
+    align-items: center;
+  }
+  .feature-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-items: center;
   }
 }
