@@ -165,3 +165,62 @@ nav {
   padding: 25px;
   background: linear-gradient(#1a0b2e, rgba(20, 17, 43, 12));
 }
+/* .about,
+.about-card {
+  background-color: black;
+} */
+
+/* layout */
+.layout-section {
+  background: rgba(35, 14, 61, 1);
+  padding: 30px;
+}
+.layout-container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 200px);
+  max-width: 1200px;
+  margin: 0 auto;
+  color: white;
+  paddin-top: 30px;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 10px;
+}
+.layout-container h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.layout-container p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.layout-1 {
+  grid-row: span 2;
+  max-width: 400px;
+  height: auto;
+  /* border: 1px solid white; */
+  padding: 40px;
+  border-radius: 40px;
+  background: rgba(53, 17, 101, 0.4);
+}
+.layout-2,
+.layout-3,
+.layout-4 {
+  grid-column: span 2;
+  max-width: 780px;
+  height: auto;
+  padding: 18px;
+  border-radius: 40px;
+  background: rgba(53, 17, 101, 0.4);
+}
+.layout-5 {
+  padding: 20px;
+  border-radius: 30px;
+  background: rgba(53, 17, 101, 0.4);
+  width: 370px;
+}

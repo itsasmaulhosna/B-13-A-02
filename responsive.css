@@ -36,6 +36,38 @@
     margin-top: -50px;
     margin-bottom: 200px;
   }
+  .layout-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-items: center;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .layout-container h4 {
+    font-size: 1rem;
+  }
+  .layout-container p {
+    font-size: 0.7rem;
+  }
+  .layout-1,
+  .layout-2,
+  .layout-3,
+  .layout-4,
+  .layout-5 {
+    width: 400px;
+    padding: 25px;
+    align-items: center;
+  }
+  .layout-2,
+  .layout-3,
+  .layout-4 {
+    grid-column: span 1;
+  }
+  .layout-1 {
+    grid-row: span 1;
+  }
 }
 
 /* medium */
