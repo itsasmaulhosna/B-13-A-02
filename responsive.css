@@ -14,19 +14,13 @@
     padding: 120px;
   }
   .banner-img img {
+    position: absolute;
     left: 40%;
-    top: 13%;
   }
   .banner-title {
     font-size: 2.4rem;
   }
 
-  /* section {
-    margin-top: -50px;
-  } */
-  /* .about {
-    margin: 100px 0;
-  } */
   .card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -79,7 +73,18 @@
   }
   .footer-container {
     text-align: center;
-    padding-top: 50px;
+    /* padding-top: 50px; */
+  }
+  .footer-section {
+    background-size: contain;
+    height: 60vh;
+    /* background-position: center; */
+    /* background-position: bottom; */
+  }
+
+  .footer-link {
+    margin-bottom: 0;
+    padding: 3px;
   }
 }
 
@@ -118,7 +123,7 @@
   .layout-3,
   .layout-4,
   .layout-5 {
-    width: 400px;
+    width: 500px;
     padding: 25px;
     align-items: center;
   }
@@ -127,5 +132,35 @@
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
     justify-items: center;
+  }
+  .banner {
+    justify-items: center;
+  }
+  .banner-img img {
+    left: 30%;
+  }
+  .feature-container,
+  .layout-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* align-items: center; */
+    justify-items: center;
+  }
+}
+
+/* large */
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  .banner {
+    justify-items: center;
+  }
+  .banner-img img {
+    left: 28%;
+  }
+  .feature-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-content {
+    padding-top: 80px;
   }
 }
